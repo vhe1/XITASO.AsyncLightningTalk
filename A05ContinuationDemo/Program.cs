@@ -17,6 +17,7 @@ namespace A05ContinuationDemo
                 current = current.ContinueWith(Dosomething);
             }
             start.Start();
+
             current.Wait();
         }
 
