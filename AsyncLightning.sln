@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A05ContinuationDemo", "A05C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A06AsyncAwait", "A06AsyncAwait\A06AsyncAwait.csproj", "{6F792D36-CC13-4362-AA11-B9EEFB820D90}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "025ManualThreadpool", "025ManualThreadpool", "{51CA91A2-1239-43EF-BCBF-705A422837AE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02ZManualThreadpool", "02ZManualThreadpool", "{51CA91A2-1239-43EF-BCBF-705A422837AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A025ManualThreadpool", "A025ManualThreadpool\A025ManualThreadpool.csproj", "{EC08370B-BF9D-4792-A4E1-6264338A28CB}"
 EndProject

@@ -33,7 +33,7 @@ namespace A025ManualThreadpool
                 {
                     Thread.Sleep(100);
                 }
-                Console.WriteLine("PAKTE");
+                Console.WriteLine("Press any key to exit");
                 Console.ReadLine();
 
                 // Killing everything
