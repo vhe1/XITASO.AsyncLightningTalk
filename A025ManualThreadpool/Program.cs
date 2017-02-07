@@ -25,7 +25,7 @@ namespace A025ManualThreadpool
 
                 for (int i = 0; i < noOfWorkItems; i++)
                 {
-                    workQueue.Add(() => Console.WriteLine(Thread.CurrentThread.ManagedThreadId));
+                    workQueue.Add(() => {Thread.Sleep(100); Console.WriteLine(Thread.CurrentThread.ManagedThreadId); });
                 }
 
                 // Polling until we are finished
