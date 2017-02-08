@@ -10,7 +10,7 @@ namespace A06AsyncAwait
     {
         static void Main(string[] args)
         {
-            AsyncDemoClass.LotsOfSequentialTasksAsync().Wait();
+            AsyncDemoClass.LotsOfParallelTasksAsync().Wait();
         }
     }
 }

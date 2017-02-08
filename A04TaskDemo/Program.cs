@@ -14,7 +14,9 @@ namespace A04TaskDemo
             {
                 allTasks[i] = new Task<bool>(() =>
                 {
-                    Task.Delay(100);
+                    // We can't do Task.Delay here, since that would make the
+                    // lambda async, which it can't be in this particular instance.
+                    Thread.Sleep(100);
                     Console.WriteLine(Thread.CurrentThread.ManagedThreadId);
                     return true;
                 });
